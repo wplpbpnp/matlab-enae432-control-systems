@@ -1,0 +1,41 @@
+# MATLAB ENAE432 Control Systems
+
+MATLAB scripts, data files, and generated outputs for ENAE432 control systems coursework.
+
+## Course Summary (Testudo)
+
+ENAE432 (`Control of Aerospace Systems`) covers analysis and design of feedback control systems in aerospace applications, including root-locus and frequency-response methods and compensation techniques.
+
+Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE432&sectionId=&termId=202508`
+
+## Contents
+
+- Problem sets (`ps2.m` to `ps11.m`)
+- Main course/project-related script (`control.m`)
+- Input/output data (`*.mat`, `tabledata2.txt`)
+- Supporting binaries (`landsim.p`, `nichols432.p`)
+- Plots/images (`bodeG.png`, `nicholsL.png`)
+- Published outputs in `html/`
+
+## Staging Cleanup Applied
+
+Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) were excluded from this staged repo copy.
+
+## Getting Started (MATLAB)
+
+1. Open MATLAB in the repo root.
+2. Review `control.m` first, then the problem-set scripts (`ps*.m`) for course progression.
+3. Keep the provided `.mat` input/result files in the repo root so scripts can resolve them by relative path.
+4. Compare script outputs with the published PDFs in `html/` and image files (`bodeG.png`, `nicholsL.png`).
+
+## Notes On Dependencies
+
+- These scripts likely rely on standard MATLAB Control System functionality.
+- `landsim.p` and `nichols432.p` are preserved P-code dependencies used by some coursework workflows.
+
+## Suggested Showcase Files
+
+- `control.m`
+- `ps8.m` to `ps11.m` (advanced later-course work)
+- `html/ps10.pdf`
+- `html/ps11.pdf`
