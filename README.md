@@ -24,14 +24,16 @@ Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) were exclude
 ## Getting Started (MATLAB)
 
 1. Open MATLAB in the repo root.
-2. Review `control.m` first, then the problem-set scripts (`ps*.m`) for course progression.
+2. Review `control.m` first (stateful controller function with persistent matrices/gains), then the problem-set scripts (`ps*.m`) for course progression.
 3. Keep the provided `.mat` input/result files in the repo root so scripts can resolve them by relative path.
-4. Compare script outputs with the published PDFs in `html/` and image files (`bodeG.png`, `nicholsL.png`).
+4. If a script depends on provided P-code helpers, keep `landsim.p` and `nichols432.p` in the same folder.
+5. Compare script outputs with the published PDFs in `html/` and image files (`bodeG.png`, `nicholsL.png`).
 
 ## Notes On Dependencies
 
 - These scripts likely rely on standard MATLAB Control System functionality.
 - `landsim.p` and `nichols432.p` are preserved P-code dependencies used by some coursework workflows.
+- `control.m` uses persistent state, so use `clear control` between runs if you want to reset the internal state in the same MATLAB session.
 
 ## Suggested Showcase Files
 
