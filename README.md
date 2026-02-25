@@ -17,10 +17,6 @@ Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE432&sectionId=&ter
 - Plots/images (`bodeG.png`, `nicholsL.png`)
 - Published outputs in `html/`
 
-## Repository Scope
-
-Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) are excluded from this public repository copy.
-
 ## Getting Started (MATLAB)
 
 1. Open MATLAB in the repo root.
