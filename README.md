@@ -17,9 +17,9 @@ Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE432&sectionId=&ter
 - Plots/images (`bodeG.png`, `nicholsL.png`)
 - Published outputs in `html/`
 
-## Staging Cleanup Applied
+## Repository Scope
 
-Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) were excluded from this staged repo copy.
+Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) are excluded from this public repository copy.
 
 ## Getting Started (MATLAB)
 
@@ -29,13 +29,13 @@ Scratch files (`project_scratch*`, `p_scratch.mlx`, autosave files) were exclude
 4. If a script depends on provided P-code helpers, keep `landsim.p` and `nichols432.p` in the same folder.
 5. Compare script outputs with the published PDFs in `html/` and image files (`bodeG.png`, `nicholsL.png`).
 
-## Notes On Dependencies
+## Dependencies
 
-- These scripts likely rely on standard MATLAB Control System functionality.
+- These scripts use MATLAB Control System functionality for frequency-response and controller-analysis workflows.
 - `landsim.p` and `nichols432.p` are preserved P-code dependencies used by some coursework workflows.
 - `control.m` uses persistent state, so use `clear control` between runs if you want to reset the internal state in the same MATLAB session.
 
-## Suggested Showcase Files
+## Highlighted Files
 
 - `control.m`
 - `ps8.m` to `ps11.m` (advanced later-course work)
