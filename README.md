@@ -8,6 +8,10 @@ ENAE432 (`Control of Aerospace Systems`) covers analysis and design of feedback 
 
 Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE432&sectionId=&termId=202508`
 
+## Project Context
+
+The course project in this repository is landing a simulated Falcon 9 booster on a moving barge with wind.
+
 ## Contents
 
 - Problem sets (`ps2.m` to `ps11.m`)
